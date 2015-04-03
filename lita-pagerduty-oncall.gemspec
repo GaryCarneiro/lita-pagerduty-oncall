@@ -1,13 +1,12 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-pagerduty-oncall"
-  spec.version       = "0.0.1"
-  spec.authors       = ["Ben Rockwood"]
-  spec.email         = ["benr@joyent.com"]
-  spec.description   = %q{TODO: Add a description}
-  spec.summary       = %q{TODO: Add a summary}
-  spec.homepage      = "TODO: Add a homepage"
+  spec.version       = "0.0.2"
+  spec.authors       = ["Ben Rockwood", "Garfield Carneiro"]
+  spec.email         = ["gary.carneiro@gmail.com"]
+  spec.description   = %q{Calls pager duty api to find who is oncall}
+  spec.summary       = %q{Lita Pager Duty plugin}
+  spec.homepage      = "https://github.com/GaryCarneiro/lita-pagerduty-oncall"
   spec.license       = "MIT"
-  spec.metadata      = { "lita_plugin_type" => "handler" }
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }

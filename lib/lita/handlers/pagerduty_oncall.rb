@@ -7,10 +7,10 @@ module Lita
     class PagerdutyOncall < Handler
 
       route(
-        /^oncall$/,
+        /^oncall|whoisoncall$/,
         :print_oncall, 
         command: true,
-        help: { } 
+        help: { "oncall | whoisoncall" => "Show who is Oncall as per PagerDuty" } 
       )
 
       def print_oncall(resp)
