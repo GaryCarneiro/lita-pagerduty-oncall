@@ -23,8 +23,8 @@ Then run "bundle install".
 Add the following variables to your Lita config file:
 
 ``` ruby
-config.handlers.pagerduty-oncall.api_key   = ''
-config.handlers.pagerduty-oncall.subdomain = ''
+config.handlers.pagerduty_oncall.api_key   = ''
+config.handlers.pagerduty_oncall.subdomain = ''
 ```
 
 ## Usage
